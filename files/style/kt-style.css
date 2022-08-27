@@ -1,0 +1,125 @@
+.kt-container-box >ul>.kt-vertical1
+{
+  
+    border-left: 2px solid black;
+    height: 32%;
+    position:absolute;
+    left: 40%;  
+}
+.kt-container-box >ul>.kt-vertical2
+{
+  
+    border-left: 2px solid black;
+    height: 32%;
+    position:absolute;
+    left: 65%;  
+}
+.kt-container-box>.kt-vertical>ul>li,
+.kt-container-box>ul>li{
+  padding: 1.2em;
+  list-style-type: none;
+  color:black;
+  padding-top: 1.2%;
+}
+.kt-container-box{
+background-color: #ffffff;
+justify-content: center;
+display: inline-flex;
+position: absolute;
+left:20%;
+right:20%;
+padding-top:10%;
+padding-left:10%;
+padding-right:10%;
+padding-bottom:10%;
+border-radius: 2.5em;
+}
+.sk-main-nav .sk-main-nav-left>li>a:hover{
+  background-color: #ffffff;
+  height: max-content;
+  width: max-content;
+  border-radius: 0.25em;
+}
+.sk-main-nav.sk-nav-container{
+ display: flex;
+ width: 100%;
+  }
+.sk-main-nav .sk-main-nav-left{
+  padding-left: 5%;
+  display: inline-flex;
+  justify-content: center;
+  justify-content: flex-start;
+}
+.sk-main-nav .sk-main-nav-right{ 
+  padding-left: 30%;
+  display:inline-flex;
+  justify-content: center;
+  justify-content: flex-end;
+}
+.sk-main-nav>ul>li{
+  padding: 1%;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sk-main-nav .sk-main-nav-right>li>a{
+    background-color: #ffffff;
+}
+.sk-main-nav .sk-main-nav-right>li>a,
+.sk-main-nav .sk-main-nav-left>li>a{
+  color:black;
+  border-radius: 0.25em;
+  padding: 1%;
+}
+.kt-mainheader >.sk-header-logo,
+.sk-main-nav .sk-main-nav-right>li,
+.sk-main-nav .sk-main-nav-left>li
+{
+  padding-left: 5%;
+  list-style-type: none;
+}
+.kt-mainheader >.sk-header-logo>img
+{
+  width: 220px;
+  height:60px;
+}
+.kt-mainheader>li{
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-inline: 2.5%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.kt-homemain{
+  position: absolute;
+  background-color: #FFE24F;
+}
+.kt-homemain{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+.kt-mainheader{
+  
+  width:100%;
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+}
+.kt-mainheader .kt-header-nav{
+  /* position: absolute; */
+  left: 40%;
+  list-style-type: none;
+  background-color: #ffffff;
+  display: flex;
+  display: inline-flex;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
